@@ -10,4 +10,5 @@ repositories {
 verik6111 {
     part = "xc7a100tcsg324-3"
     synthesisTop = "FpgaTop"
+    simulationTop = "SevenSegmentTest"
 }
