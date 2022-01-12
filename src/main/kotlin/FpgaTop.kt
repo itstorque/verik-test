@@ -38,15 +38,20 @@ class FpgaTop(
 //        led16_b = false
 //        led16_g = false
 //        led16_r = false
-        ca = seg[0]
-        cb = seg[1]
-        cc = seg[2]
-        cd = seg[3]
-        ce = seg[4]
-        cf = seg[5]
-        cg = seg[6]
-        dp = true
-        an = u0() // can ignore 8 bit because of type inference
+        for (i in 0 until 8) {
+
+            ca = seg[0]
+            cb = seg[1]
+            cc = seg[2]
+            cd = seg[3]
+            ce = seg[4]
+            cf = seg[5]
+            cg = seg[6]
+            dp = true
+            an = u0() // can ignore 8 bit because of type inference
+
+        }
+
     }
 
 }
